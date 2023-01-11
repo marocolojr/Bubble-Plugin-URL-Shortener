@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity",
+        "2": "data (things)",
+        "3": "media"
+    },
+    "description": "Service for link shortening.\n\nEx: https://goolnk.com/\n\nThe plugin uses API provided at\nhttps://rapidapi.com/BigLobster/api/url-shortener-service",
+    "image": "//s3.amazonaws.com/appforest_uf/f1673364805804x324709044300519000/unlink-alt-4-svgrepo-com.svg",
+    "license": "open_source",
+    "name": "URL Shortener",
+    "plugin_instructions": "Action:\n\nWorkFlow - Plugin - URL Shorterner Service:\n\nThe action return url shortener."
+}

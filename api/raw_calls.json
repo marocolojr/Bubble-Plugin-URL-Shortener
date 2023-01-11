@@ -1,0 +1,44 @@
+{
+    "calls": {
+        "AAC": {
+            "body_type": "json",
+            "data_type": "text",
+            "headers": {
+                "AAD": {
+                    "key": "X-RapidAPI-Host",
+                    "private": true,
+                    "value": "url-shortener-service.p.rapidapi.com",
+                    "visibility": "hidden"
+                },
+                "AAE": {
+                    "key": "X-RapidAPI-Key",
+                    "private": true,
+                    "value": "03098bf76emshf1e678f0e592d5bp1cd92cjsn9b78a8ebd3d5",
+                    "visibility": "hidden"
+                },
+                "AAI": {
+                    "key": "content-type",
+                    "private": true,
+                    "value": "application/x-www-form-urlencoded"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Short",
+            "no_types": true,
+            "params": {
+                "AAG": {
+                    "allow_blank": true,
+                    "key": "url",
+                    "optional": true,
+                    "private": true,
+                    "value": "https://google.com"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "should_reinitialize": true,
+            "url": "https://url-shortener-service.p.rapidapi.com/shorten"
+        }
+    }
+}
